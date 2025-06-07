@@ -12,8 +12,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 # Inherit some common AOSP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-PRODUCT_DEVICE := Infinix-X650C
-PRODUCT_NAME := twrp_Infinix_Infinix-X650C
+PRODUCT_DEVICE := x650c
+PRODUCT_NAME := twrp_x650c
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix X650C
 PRODUCT_MANUFACTURER := infinix

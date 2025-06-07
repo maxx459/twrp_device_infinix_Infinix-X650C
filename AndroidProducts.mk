@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_Infinix-X650C.mk
+    $(LOCAL_DIR)/twrp_x650c.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_Infinix-X650C-user \
-    twrp_Infinix-X650C-userdebug \
-    twrp_Infinix-X650C-eng
+    twrp_x650c-user \
+    twrp_x650c-userdebug \
+    twrp_x650c-eng
