@@ -5,14 +5,14 @@
 # 1 "<command-line>" 2
 # 1 "vendor/mediatek/proprietary/hardware/fstab/mt6765/fstab.in.mt6765"
 # 109 "vendor/mediatek/proprietary/hardware/fstab/mt6765/fstab.in.mt6765"
-/dev/block/platform/bootdevice/by-name/system / ext4 ro wait,recoveryonly
+/dev/block/platform/bootdevice/by-name/system /system ext4 ro wait,recoveryonly
 
 /dev/block/platform/bootdevice/by-name/vendor /vendor ext4 ro wait,recoveryonly
 
 
 
 
-/dev/block/platform/bootdevice/by-name/userdata /data f2fs noatime,nosuid,nodev,discard,noflush_merge wait,check,quota,reservedsize=128M,formattable,resize,=/dev/block/platform/bootdevice/by-name/metadata,
+/dev/block/platform/bootdevice/by-name/userdata /data f2fs noatime,nosuid,nodev,discard,noflush_merge wait,check,quota,reservedsize=128M,formattable,resize,encryptable=/dev/block/platform/bootdevice/by-name/metadata,
 
 /dev/block/platform/bootdevice/by-name/cache /cache ext4 noatime,nosuid,nodev,noauto_da_alloc,discard wait,check,formattable
 
