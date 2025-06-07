@@ -12,8 +12,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
-PRODUCT_DEVICE := Infinix-X650C
-PRODUCT_NAME := omni_Infinix-X650C
+PRODUCT_DEVICE := X650C
+PRODUCT_NAME := omni_X650C
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix X650C
 PRODUCT_MANUFACTURER := infinix
